@@ -78,7 +78,7 @@ def decrypt_tvbox_config(webp_url):
 
 if __name__ == "__main__":
     # 你的目标 webp 订阅源
-    target_url = "https://www.xn--ihq545aq7p.com/"
+    target_url = "https://xn--v4q818bf34b.cc"
 
     config_data = decrypt_tvbox_config(target_url)
 
