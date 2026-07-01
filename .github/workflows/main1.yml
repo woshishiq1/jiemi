@@ -1,55 +1,48 @@
-name: 自动解密_Spider下载_生成新Jar配置
+name: 自动调用API解密影视配置
 
 on:
-  push:
-    branches:
-      - main
   schedule:
-    - cron: '0 0 * * *' # 每天自动运行一次
-  workflow_dispatch: # 支持手动点击触发
+    - cron: '0 0 * * *' # 每天北京时间早上 8:00 自动运行
+  workflow_dispatch:     # 支持在 GitHub 页面上点击按钮手动触发运行
 
 jobs:
-  build:
+  decrypt_job:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 检出代码
-      uses: actions/checkout@v3
+    - name: 检出仓库代码
+      uses: actions/checkout@v4
 
-    - name: 设置 Python 环境
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'
-
-    - name: 安装依赖库
+    - name: 请求解密接口并保存
       run: |
-        python -m pip install --upgrade pip
-        pip install requests
+        # 模拟浏览器向 get_jiemi.php 接口发送 POST 请求
+        # 注意：如果抓包发现载荷参数名不是 url 而是 text，请把下方 url= 换成 text=
+        curl -X POST "http://2015888.xyz/jiemi/get_jiemi.php" \
+          -H "Content-Type: application/x-www-form-urlencoded" \
+          -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+          -d "url=http://我不是.摸鱼儿.top" \
+          -o tv_config.json
 
-    - name: 1. 执行原有的解密脚本
+    - name: 验证并提交解密后的配置文件
       run: |
-        python decrypt1.py 
-
-    - name: 2. 执行 Spider 实时检测与下载
-      run: |
-        python download_spider1.py
-
-    - name: 3. 读取旧配置并生成带有专属 jar 的全新 JSON
-      run: |
-        python add_jar_to_sites1.py
-
-    - name: 4. 将所有更新统一提交推送到仓库
-      run: |
-        git config --local user.email "actions@github.com"
-        git config --local user.name "GitHub Action"
+        # 配置 Git 机器人信息
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         
-        # 将原始 json、新生成的修改版 json 以及下载的 png 放入暂存区
-        git add tvbox_config1.json tvbox_modified1.json moyu.jar
-        
-        # 检查是否有文件发生变化，有变化才提交
-        if ! git diff --cached --quiet; then
-          git commit -m "自动更新：保持原配置，并独立生成全新的 tvbox_modified1.json 以及最新 moyu.jar"
-          git push
+        # 检查下载的文件是否包含 spider 或 sites，防止接口挂掉下载了错误信息
+        if [ -f "tv_config.json" ] && grep -q -E "spider|sites" tv_config.json; then
+          # 检查文件内容是否有变化
+          if ! git diff --quiet tv_config.json; then
+            git add tv_config.json
+            git commit -m "自动同步解密配置: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+            echo "同步成功，最新影视配置已保存至仓库！"
+          else
+            echo "配置内容没有发生变化，无需更新。"
+          fi
         else
-          echo "所有数据均未发生变化，无需提交。"
+          echo "错误：抓取到的内容不包含标准的影视配置结构，请检查解密接口返回内容。"
+          echo "以下为接收到的错误响应内容："
+          cat tv_config.json
+          exit 1
         fi
