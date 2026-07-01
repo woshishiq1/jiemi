@@ -44,11 +44,11 @@ jobs:
         git config --local user.name "GitHub Action"
         
         # 将原始 json、新生成的修改版 json 以及下载的 png 放入暂存区
-        git add tvbox_config.json tvbox_modified.json aowu.png
+        git add tvbox_config1.json tvbox_modified1.json moyu.jar
         
         # 检查是否有文件发生变化，有变化才提交
         if ! git diff --cached --quiet; then
-          git commit -m "自动更新：保持原配置，并独立生成全新的 tvbox_modified.json 以及最新 aowu.png"
+          git commit -m "自动更新：保持原配置，并独立生成全新的 tvbox_modified1.json 以及最新 moyu.jar"
           git push
         else
           echo "所有数据均未发生变化，无需提交。"
