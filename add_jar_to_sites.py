@@ -4,21 +4,29 @@ import hashlib
 
 INPUT_JSON = "tvbox_config.json"
 OUTPUT_JSON = "tvbox_modified.json"
-TARGET_IMAGE = "aowu.png"  # 依赖刚刚下载好的最新图片来计算MD5
+TARGET_IMAGE = "aowu.png"          # 用于计算 MD5 的图片
 
 JAR_KEY = "jar"
-# 基础链接（去掉了末尾，留给脚本动态拼接MD5）
 BASE_JAR_URL = "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png"
+
 
 def get_file_md5(file_path):
     """计算本地文件的 MD5 值"""
     if not os.path.exists(file_path):
-        return ""
-    hasher = hashlib.md5()
-    with open(file_path, 'rb') as f:
-        for chunk in iter(lambda: f.read(4096), b""):
-            hasher.update(chunk)
-    return hasher.hexdigest()
+        print(f"[-] 未找到图片 {file_path}，将使用无 MD5 链接")
+        return None
+    try:
+        hasher = hashlib.md5()
+        with open(file_path, 'rb') as f:
+            for chunk in iter(lambda: f.read(4096), b""):
+                hasher.update(chunk)
+        md5 = hasher.hexdigest()
+        print(f"[+] 成功计算 aowu.png MD5: {md5}")
+        return md5
+    except Exception as e:
+        print(f"[-] 计算 MD5 失败: {e}")
+        return None
+
 
 def add_jar_to_sites():
     if not os.path.exists(INPUT_JSON):
@@ -37,30 +45,48 @@ def add_jar_to_sites():
         print("[-] 未找到有效的 'sites' 列表。")
         return
 
-    # 核心改动：实时计算最新下载的 aowu.png 的 MD5
+    # 计算最新 MD5
     img_md5 = get_file_md5(TARGET_IMAGE)
     if img_md5:
-        # 拼接成 TVBox 标配的带有 MD5 强刷尾巴的链接
-        # 变成：https://.../aowu.png;md5;xxxxxx
         final_jar_value = f"{BASE_JAR_URL};md5;{img_md5}"
-        print(f"[+] 成功计算最新图片 MD5: {img_md5}")
     else:
-        # 如果图片还没下载完，作为保底使用原链接
         final_jar_value = BASE_JAR_URL
-        print("[-] 未找到 aowu.png，使用无MD5的默认链接。")
 
-    print(f"[+] 开始为 {len(sites_list)} 个站点注入最新的 Jar 地址...")
+    print(f"[+] 准备注入 Jar 地址 → {final_jar_value[:80]}...")
+
+    updated_count = 0
+    skipped_count = 0
 
     for site in sites_list:
         if isinstance(site, dict):
+            site_name = site.get("name", "未知站点")
+            current_jar = site.get(JAR_KEY)
+
+            # 智能判断：已有有效 jar 地址则跳过
+            if current_jar and isinstance(current_jar, str) and current_jar.strip():
+                print(f"[~] 跳过已有 Jar 的站点: {site_name}")
+                skipped_count += 1
+                continue
+
+            # 没有 jar 或 jar 为空 → 注入
             site[JAR_KEY] = final_jar_value
+            print(f"[+] 已为站点注入 Jar: {site_name}")
+            updated_count += 1
+
+    if updated_count == 0 and skipped_count == 0:
+        print("[-] sites 列表为空或格式异常")
+        return
 
     try:
         with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
             json.dump(config_data, f, indent=2, ensure_ascii=False)
-        print(f"[+] 成功生成完美配置: {OUTPUT_JSON} (已自动挂载MD5缓存刷新机制)")
+        print(f"\n[+] 操作完成！")
+        print(f"   • 新增/更新 Jar 的站点: {updated_count} 个")
+        print(f"   • 跳过（已有 Jar）的站点: {skipped_count} 个")
+        print(f"   • 输出文件: {OUTPUT_JSON}")
     except Exception as e:
         print(f"[-] 保存新 JSON 失败: {e}")
+
 
 if __name__ == "__main__":
     add_jar_to_sites()
