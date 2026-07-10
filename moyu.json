@@ -8,10 +8,16 @@
       "key": "Douban",
       "name": "🌕️┆片单┆精选",
       "type": 3,
-      "api": "csp_Douban",
+      "api": "csp_PianDan",
       "indexs": 1,
       "searchable": 0,
       "filterable": 1,
+      "ext": {
+        "home": {
+          "douban": "https://6800.kstore.vip/douban.json",
+          "tmdb": "https://6800.kstore.vip/tmdb.json"
+        }
+      },
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar"
     },
     {
@@ -963,6 +969,30 @@
       "jar": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar"
     },
     {
+      "key": "TingShijie",
+      "name": "🌍┆听界┆有声",
+      "type": 3,
+      "api": "csp_TingShijie",
+      "searchable": 1,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      },
+      "jar": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar"
+    },
+    {
+      "key": "TingYou",
+      "name": "🎧┆听友┆有声",
+      "type": 3,
+      "api": "csp_TingYou",
+      "searchable": 1,
+      "indexs": 0,
+      "style": {
+        "type": "list"
+      },
+      "jar": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar"
+    },
+    {
       "key": "TingBook",
       "name": "📻┆六月┆有声",
       "type": 3,
@@ -984,18 +1014,6 @@
       "filterable": 1,
       "indexs": 0,
       "ext": "https://m.ting15.com",
-      "style": {
-        "type": "list"
-      },
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar"
-    },
-    {
-      "key": "TingShijie",
-      "name": "🌍┆听界┆有声",
-      "type": 3,
-      "api": "csp_TingShijie",
-      "searchable": 1,
-      "indexs": 0,
       "style": {
         "type": "list"
       },
