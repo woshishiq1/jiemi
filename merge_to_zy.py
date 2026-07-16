@@ -51,13 +51,15 @@ def merge_sites():
         print("[-] 错误: 'sites' 字段不是列表格式！")
         exit(1)
 
-    # 合并 sites
+    # 合并 sites：tvbox 排序在前，moyu 紧随其后，顺序保持不变
     merged_sites = tvbox_sites + moyu_sites
 
-    # 以 tvbox 结构为模板，更新 sites 列表
-    output_data = dict(tvbox_data)
-    output_data["sites"] = merged_sites
+    # 核心修改：全新创建一个只包含 "sites" 字段的字典
+    output_data = {
+        "sites": merged_sites
+    }
 
+    # 写入文件
     write_json_file(OUTPUT_FILE, output_data, TVBOX_FILE)
     print("[*] 合并完成！")
 
