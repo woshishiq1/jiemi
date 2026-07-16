@@ -1,5 +1,6 @@
 import os
-import json5  # 支持带注释或不规范的 JSON 格式
+import json  # 强制使用标准库 json 写入，确保输出 100% 标准
+import json5  # 用 json5 读取，以兼容你原本带注释的源文件
 import chardet
 
 TVBOX_FILE = "tvbox_config.json"
@@ -21,17 +22,20 @@ def read_json_file(file_path):
     encoding = detect_encoding(file_path)
     try:
         with open(file_path, 'r', encoding=encoding) as f:
+            # 读取时用 json5，完美兼容所有不标准格式、注释等
             return json5.load(f)
     except Exception as e:
         print(f"[-] 读取 {file_path} 失败: {e}")
         return None
 
-def write_json_file(file_path, data, reference_file):
+def write_standard_json(file_path, data, reference_file):
     encoding = detect_encoding(reference_file)
     try:
         with open(file_path, 'w', encoding=encoding) as f:
-            json5.dump(data, f, ensure_ascii=False, indent=2)
-        print(f"[+] 成功生成/更新文件: {file_path}")
+            # 关键：强制使用标准 json 库 dump！
+            # 这会强制给所有 keys 和 values 加上双引号，并生成最标准的大括号
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"[+] 成功生成/更新标准文件: {file_path}")
     except Exception as e:
         print(f"[-] 写入 {file_path} 失败: {e}")
 
@@ -44,6 +48,7 @@ def merge_sites():
         print("[-] 合并中止：源文件读取失败。")
         exit(1)
 
+    # 提取 sites 列表
     tvbox_sites = tvbox_data.get("sites", [])
     moyu_sites = moyu_data.get("sites", [])
 
@@ -51,16 +56,16 @@ def merge_sites():
         print("[-] 错误: 'sites' 字段不是列表格式！")
         exit(1)
 
-    # 合并 sites：tvbox 排序在前，moyu 紧随其后，顺序保持不变
+    # 合并 sites：tvbox 在前，moyu 在后，顺序保持不变
     merged_sites = tvbox_sites + moyu_sites
 
-    # 核心修改：全新创建一个只包含 "sites" 字段的字典
+    # 封装为标准的 Python 字典对象（自动带有外层 {}）
     output_data = {
         "sites": merged_sites
     }
 
-    # 写入文件
-    write_json_file(OUTPUT_FILE, output_data, TVBOX_FILE)
+    # 写入到全新的 zy.json 中
+    write_standard_json(OUTPUT_FILE, output_data, TVBOX_FILE)
     print("[*] 合并完成！")
 
 if __name__ == "__main__":
