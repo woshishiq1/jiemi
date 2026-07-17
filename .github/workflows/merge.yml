@@ -1,13 +1,13 @@
 name: Auto Merge Sites to zy.json
 
-# 触发条件
 on:
-workflow_run:
+  workflow_run:
     workflows: 
       - "自动解密_Spider下载_生成新Jar配置"
       - "自动调用API解密并注入Sites生成moyu.json"
     types:
       - completed
+
   workflow_dispatch: # 允许你在 GitHub 页面上手动点击运行
 
 jobs:
