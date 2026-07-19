@@ -333,10 +333,10 @@
       "ext": "https://4kzn.cc"
     },
     {
-      "name": "☁️盘他|4K",
-      "key": "Panta",
+      "name": "☁️Sek|4K",
+      "key": "SheQuyd",
       "type": 3,
-      "api": "csp_PantaAmns",
+      "api": "csp_SheQuydAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0
