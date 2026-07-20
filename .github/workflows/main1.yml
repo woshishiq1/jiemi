@@ -2,7 +2,7 @@ name: 自动调用API解密并注入Sites生成moyu.json
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # 每天早上 8:00 自动运行
+    - cron: '0 */3 * * *' # 每3小时 自动运行
   workflow_dispatch:     # 支持手动点击按钮运行
 
 jobs:
