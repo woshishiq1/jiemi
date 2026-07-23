@@ -6,7 +6,7 @@ OUTPUT_JSON = "tvbox_modified.json"
 
 JAR_KEY = "jar"
 # 直接使用无需拼接 MD5 的基础 URL
-BASE_JAR_URL = "https://seep.eu.org/https://raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png"
+BASE_JAR_URL = "https://down.nigx.cn/https://raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png"
 
 
 def add_jar_to_sites():
