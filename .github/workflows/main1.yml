@@ -52,7 +52,7 @@ jobs:
         GITHUB_USER = "woshishiq1"
         GITHUB_REPO = "jiemi"
         
-        BASE_JAR_URL = f"https://seep.eu.org/https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/moyu.jar"
+        BASE_JAR_URL = f"https://down.nigx.cn/https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/main/moyu.jar"
 
         if not os.path.exists(INPUT_JSON):
             print(f"[-] 未找到源文件 {INPUT_JSON}")
