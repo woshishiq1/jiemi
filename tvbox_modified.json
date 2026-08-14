@@ -1,5 +1,5 @@
 {
-  "spider": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7",
+  "spider": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e",
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
@@ -13,19 +13,19 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "https://file.icve.com.cn/file_doc/803/892/C8FDF0894D61FA21A937E21135CB9125.aowu",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Douban",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
-      "name": "更新日期:【20260812】",
+      "name": "更新日期:【20260814】",
       "key": "Y360",
       "type": 3,
       "api": "csp_Y360Amns",
-      "searchable": 0,
-      "quickSearch": 0,
+      "searchable": 1,
+      "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://file.icve.com.cn/file_doc/121/281/1E74668FD5125AA70977BC98A1B297A1.aowu",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Y360",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🔥短剧┃推荐",
@@ -36,8 +36,8 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "shortdrama",
-      "ext": "https://nos.netease.com/ysf/dac0101040005285380ee886e6e6c660.aowu",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Hgdh",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "⚙️配置┃中心",
@@ -47,7 +47,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "💥玩偶┃4K",
@@ -57,19 +57,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "sites": [
-          "http://www.wogg.lol",
-          "https://wogg.xxooo.cf",
-          "https://woggpan.888484.xyz",
-          "https://www.wogg.net",
-          "http://woggpan.xxooo.cf",
-          "https://www.wogg.one",
-          "https://www.wogg.live"
-        ],
-        "filters": "https://file.icve.com.cn/file_doc/749/902/BB6E1B79DF03CD16DDAC84F2FF266BD4.aowu"
-      },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "woWogg",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "💥木偶┃4K",
@@ -79,16 +68,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "sites": [
-          "https://www.muou.site",
-          "https://www.muou.asia",
-          "http://123.666291.xyz",
-          "https://666.666291.xyz"
-        ],
-        "filters": "https://file.icve.com.cn/file_doc/228/492/3907B2A1627FC9339187FC273536F5D1.aowu"
-      },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "moWobg",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "⭐夏天┃秒播",
@@ -98,8 +79,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "05d95714a2413f05151fea686450950ace809216b88f37b7b1fb4f1ce80eff9fab1b6be3fd1f9df9a5a915365aefecb314d297b5e1747337c20236c3637c2aeaebfce371e9053be3898bb20a9ef20bbf13173fb2ad38b4474346328a3a354451a1b5f96c490cc09840a195bc498f9e11499df11b3946e58e4c705a8457521ed3ce5672e23e500042163788dd6faf8ad235d254cec932a9c4d881e21aa9d10e339a913efbbc09e0d49cf15fb74b2a12b859fcd7dcc7d3b7ef502e95ef9da4b41f54296d03279048aa01d73b730582a5f5b7824bcf08ba9b80b4c521c8581245886c04311b80e40baa6abd7e33839426be18f60d4c58dcd66a40e8c56ecc6b44b2302c3823a5ff69e521e2fde15583c530475063321c652bf7b79d04be83c44feb12a6c5ac1c33fb7d99cffb",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "NewGrV2",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "⭐韩剧┃秒播",
@@ -109,7 +90,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "⭐瓜子┃秒播",
@@ -119,11 +100,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "sites": "",
-        "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
-      },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Guazi",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦①线┃秒播",
@@ -134,7 +112,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Fz",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦②线┃秒播",
@@ -145,7 +123,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Xy",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦③线┃秒播",
@@ -156,7 +134,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Zjdr",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦④线┃秒播",
@@ -167,7 +145,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Xyz",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦⑤线┃秒播",
@@ -178,7 +156,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Xnm",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦⑥线┃秒播",
@@ -189,7 +167,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Mtq",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦⑦线┃秒播",
@@ -200,7 +178,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Llq",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦⑧线┃秒播",
@@ -211,7 +189,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Xsz",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦⑨线┃秒播",
@@ -222,18 +200,18 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV7Xhr",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦师兄┃秒播",
-      "key": "AppV6Dxs",
+      "key": "AppV7Dsx",
       "type": 3,
-      "api": "csp_AppV6Amns",
+      "api": "csp_AppV7Amns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "AppV6Dxs",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "AppV7Dsx",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📦特狗┃秒播",
@@ -244,7 +222,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "ext": "AppV6Tg",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️二小┃4K",
@@ -254,17 +232,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "sites": [
-          "https://www.2xiaopan.top",
-          "https://2xiaopan.top",
-          "https://www.erxiaozhan.top",
-          "https://www.2xiaozhan.top",
-          "https://wexwp.cc"
-        ],
-        "filters": "https://nos.netease.com/youdata-netease/public-utilUpload-w2jwT7HaUo1qS2S3ftXQuU.gz"
-      },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "exWobg",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️至臻┃4K",
@@ -274,20 +243,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "sites": [
-          "https://pan.mihdr.top",
-          "https://zhizhen1.top",
-          "https://mihdr.top",
-          "https://www.mihdr.top",
-          "https://www.miqk.cc",
-          "https://zhizhenpan.com",
-          "https://zhizhen8.click",
-          "https://www.zhizhen8.click"
-        ],
-        "filters": "https://nos.netease.com/youdata-netease/public-utilUpload-s6K76HZouKrRvZWR9sSwS6.gz"
-      },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "zzWobg",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️闪电┃4K",
@@ -297,14 +254,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "sites": [
-          "http://sd.sduc.site",
-          "http://www.xiaocgege.shop"
-        ],
-        "filters": "https://cdn.waimaimingtang.com/file/images/bwc/20260622233504-cafac189e9.aowu"
-      },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "yxWobg",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️多多┃4K",
@@ -314,15 +265,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "sites": [
-          "https://tv.yydsys.top",
-          "https://tv.yydsys.cc",
-          "https://tv.214521.xyz"
-        ],
-        "filters": "https://file.icve.com.cn/file_doc/96/840/182D20892E75022992BBFD3EEECA3195.aowu"
-      },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "ddWobg",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️观影┃4K",
@@ -332,8 +276,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-fVP3F3EpDeP3hiqPYunAJ.gz",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Gying",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️盘链┃4K",
@@ -343,7 +287,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️Sed┃4K",
@@ -353,8 +297,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://104.243.25.80,https://sidhub.cc,https://seeduck.cc,https://hubdog.cc",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "SeedHub",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️七味┃4K",
@@ -364,8 +308,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://www.qwmp4.com,https://www.qwshow.com,https://www.qwfilm.com,https://www.qwfun.com,https://www.qnnull.com",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Qiwei",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️原盘┃4K",
@@ -375,8 +319,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://4kzn.cc",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Zhinan",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️Sek┃4K",
@@ -386,7 +330,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️123┃4K",
@@ -396,7 +340,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "☁️蜗牛┃4K",
@@ -406,7 +350,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🐱囧途┃动漫",
@@ -416,7 +360,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🐱花海┃动漫",
@@ -426,7 +370,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🐱番薯┃动漫",
@@ -436,7 +380,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🐱青云┃动漫",
@@ -446,7 +390,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🐱魔都┃动漫",
@@ -456,7 +400,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🔗哔嘀┃2K",
@@ -466,8 +410,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://v.xl.in.ua,https://v.xl01.eu.cc,https://v.xl02.eu.cc,https://v.xl01.cc.ua",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Bidys",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🔗厂长┃2K",
@@ -477,11 +421,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "sites": "https://czzy.top,https://www.4kcz.com,https://www.cz4k.com",
-        "filters": ""
-      },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Czzy",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🔗LBV┃2K",
@@ -491,11 +432,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "sites": "https://www.libvios.com,https://www.libhd.com,https://www.libvio.life",
-        "filters": ""
-      },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Libvio",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎬嗷嗚┃漫剧",
@@ -505,9 +443,9 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "comic_series",
+      "ext": "MjHggg",
       "genre": "shortdrama",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎬嗷嗚┃短剧",
@@ -517,9 +455,9 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "short_play",
+      "ext": "DjHggg",
       "genre": "shortdrama",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎬豪堪┃短剧",
@@ -530,7 +468,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "shortdrama",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎬盒马┃短剧",
@@ -541,7 +479,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "shortdrama",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎬拜拜┃短剧",
@@ -552,7 +490,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "shortdrama",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎬围观┃短剧",
@@ -563,7 +501,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "shortdrama",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎬喵喵┃短剧",
@@ -574,7 +512,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "shortdrama",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎬星星┃短剧",
@@ -585,7 +523,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "shortdrama",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🧩橘汁┃快速",
@@ -613,7 +551,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🧩荐片┃快速",
@@ -623,8 +561,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-ky1PAyMa8zMhSwSbYeoej9.gz",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "JPian",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🧩热播┃快速",
@@ -634,8 +572,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://v.rbotv.cn",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Rbys",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🧩杜北┃快速",
@@ -645,8 +583,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "Dubk",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🧩伊外┃快速",
@@ -656,7 +594,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🧩爱看┃采集",
@@ -666,7 +604,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🌍爱瓜┃墙外",
@@ -676,7 +614,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🌍U视┃墙外",
@@ -686,7 +624,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🌍欧乐┃墙外",
@@ -696,7 +634,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🌍壹帆┃墙外",
@@ -706,7 +644,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📡Bili┃Live",
@@ -720,7 +658,7 @@
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📡虎牙┃Live",
@@ -734,7 +672,7 @@
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🏆瓜子┃体育",
@@ -744,8 +682,8 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "https://api.46d5umpk.com,https://api.tkfupxqu.com,https://api.5h5hbfhh.com,https://api.qchyzkww.com,https://api.cjxxpgkq.com,https://api.zejzeu7p.com",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "GuaziLive",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🏆飞球┃体育",
@@ -755,7 +693,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🏆88┃体育",
@@ -765,8 +703,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "https://www.88kanqiu.app,https://www.88kanqiu.la,https://www.88kanqiu.one,https://www.88kanqiu.ooo,https://www.88kanqiu.pw",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "ext": "BbkqLive",
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🏆咖啡┃体育",
@@ -776,7 +714,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎉合集┃Bili",
@@ -786,16 +724,12 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": {
-        "home": "1",
-        "json": "https://file.icve.com.cn/file_doc/299/797/4AFC77E563EDEDB37F18BA6458610E16.aowu",
-        "cookie": ""
-      },
+      "ext": "BiliHeji",
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎉歌曲┃Bili",
@@ -805,15 +739,12 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://cdn.waimaimingtang.com/file/images/bwc/20260527100843-9aefe070b5.aowu",
-        "cookie": ""
-      },
+      "ext": "BiliGequ",
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎉戏曲┃Bili",
@@ -823,15 +754,12 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://cdn.waimaimingtang.com/file/images/bwc/20260527100913-7601517540.aowu",
-        "cookie": ""
-      },
+      "ext": "BiliXiqu",
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📚少儿┃教育",
@@ -841,15 +769,12 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/youdata-netease/public-utilUpload-7y79ukN4TsLcdydmg5TFRj.gz",
-        "cookie": ""
-      },
+      "ext": "BiliSer",
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📚小学┃教育",
@@ -859,15 +784,12 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/youdata-netease/public-utilUpload-4VMpA5z1erwuRYyDVSkc9T.gz",
-        "cookie": ""
-      },
+      "ext": "BiliXxue",
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📚初中┃教育",
@@ -877,15 +799,12 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://file.icve.com.cn/file_doc/281/941/466EB55404EAB8AD6EC37A5F73444B27.aowu",
-        "cookie": ""
-      },
+      "ext": "BiliCzong",
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📚高中┃教育",
@@ -895,15 +814,12 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": {
-        "json": "https://nos.netease.com/youdata-netease/public-utilUpload-vsfDQmE86Ei5LCTWJ2X6Nv.gz",
-        "cookie": ""
-      },
+      "ext": "BiliGzong",
       "style": {
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📖富强┃听书",
@@ -913,7 +829,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📖文明┃听书",
@@ -923,7 +839,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🎸酷狗┃音乐",
@@ -934,7 +850,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "genre": "music",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📁本地┃我的",
@@ -944,7 +860,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📁夸夸┃我的",
@@ -954,7 +870,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📁摆渡┃我的",
@@ -964,7 +880,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📁优汐┃我的",
@@ -974,7 +890,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📁光雅┃我的",
@@ -984,7 +900,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📁阿狸┃我的",
@@ -994,7 +910,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📁115┃我的",
@@ -1004,7 +920,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "📁123┃我的",
@@ -1014,7 +930,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🔍fish┃盘搜",
@@ -1024,7 +940,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🔍短剧┃盘搜",
@@ -1034,7 +950,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     },
     {
       "name": "🛴推送┃播放",
@@ -1044,7 +960,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;c01dcf611c00ffadf8584263214da7f7"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/aowu.png;md5;e43bbee3ea80d065623f8259025ad78e"
     }
   ],
   "lives": [
