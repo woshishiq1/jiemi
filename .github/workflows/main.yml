@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: '0 */3 * * *' # 每3小时自动运行一次
   workflow_dispatch: # 支持手动点击触发
+  
+# 增加并发排队锁：确保多个工作流同时运行时排队执行，防止抢占提交
+concurrency:
+  group: git-push-main
+  cancel-in-progress: false  
 
 jobs:
   build:
