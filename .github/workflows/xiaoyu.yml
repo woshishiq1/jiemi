@@ -5,6 +5,11 @@ on:
     - cron: '0 */3 * * *' # 每3小时 自动运行
   workflow_dispatch:     # 支持手动点击按钮运行
 
+# 增加并发排队锁：确保多个工作流同时运行时排队执行，防止抢占提交
+concurrency:
+  group: git-push-main
+  cancel-in-progress: false
+
 jobs:
   decrypt_and_process:
     runs-on: ubuntu-latest
@@ -12,6 +17,8 @@ jobs:
     steps:
     - name: 检出仓库代码
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # 获取完整提交历史，方便后续 rebase 合并
 
     - name: 1. 请求解密接口并保存基础 JSON (xiaoyu_config.json)
       run: |
@@ -131,14 +138,18 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
 
-        # 强行添加全部 3 个关键文件，保证原版配置与修改版同时同步
+        # 强行添加全部 3 个关键文件
         if [ -f "xiaoyu_config.json" ]; then git add -f xiaoyu_config.json; fi
         if [ -f "xiaoyu.json" ]; then git add -f xiaoyu.json; fi
         if [ -f "xiaoyu.txt" ]; then git add -f xiaoyu.txt; fi
 
-        # 只要有任何更新就提交
+        # 只要有任何更新就提交并推送
         if ! git diff --cached --quiet; then
           git commit -m "自动同步最新原版配置与xiaoyu文件: $(date +'%Y-%m-%d %H:%M:%S')"
+          
+          # 先拉取远程最新提交（包含其他工作流刚刚提交的代码）并进行变基合并
+          git pull origin main --rebase || true
+          
           git push origin HEAD
           echo "【成功】xiaoyu_config.json、xiaoyu.json 和 xiaoyu.txt 已同步推送到远程仓库！"
         else
