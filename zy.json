@@ -12,12 +12,12 @@
       "ext": "Douban"
     },
     {
-      "name": "更新日期:【20260814】",
+      "name": "更新日期:【20260816】",
       "key": "Y360",
       "type": 3,
       "api": "csp_Y360Amns",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "changeable": 0,
       "ext": "Y360"
     },
@@ -745,6 +745,15 @@
         "type": "rect",
         "ratio": 1.433
       }
+    },
+    {
+      "name": "📖嗷嗚┃听书",
+      "key": "TSaowu",
+      "type": 3,
+      "api": "csp_TSaowuAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
     },
     {
       "name": "📖富强┃听书",
