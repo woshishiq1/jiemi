@@ -1,5 +1,5 @@
 {
-  "spider": "https://nos.netease.com/ysf/5b59a8c430e57ec17076b858f37a190e.png;md5;add3cce49f87f6344d3499ddc932027b",
+  "spider": "https://nos.netease.com/ysf/7cf170254bd20a7e7c2f4f2f6471d4db.png;md5;91214203a2dbdb8e3f953fa27e609283",
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "danmaku": "http://127.0.0.1:2525/danmu?name={name}&epid={episode}",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
@@ -660,7 +660,11 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "BiliHeji",
+      "ext": {
+        "home": "1",
+        "json": "https://file.icve.com.cn/file_doc/299/797/4AFC77E563EDEDB37F18BA6458610E16.aowu",
+        "cookie": ""
+      },
       "style": {
         "type": "rect",
         "ratio": 1.433
@@ -674,7 +678,10 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "BiliGequ",
+      "ext": {
+        "json": "https://cdn.waimaimingtang.com/file/images/bwc/20260527100843-9aefe070b5.aowu",
+        "cookie": ""
+      },
       "style": {
         "type": "rect",
         "ratio": 1.433
@@ -688,7 +695,10 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "BiliXiqu",
+      "ext": {
+        "json": "https://cdn.waimaimingtang.com/file/images/bwc/20260527100913-7601517540.aowu",
+        "cookie": ""
+      },
       "style": {
         "type": "rect",
         "ratio": 1.433
@@ -702,7 +712,10 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "BiliSer",
+      "ext": {
+        "json": "https://nos.netease.com/youdata-netease/public-utilUpload-7y79ukN4TsLcdydmg5TFRj.gz",
+        "cookie": ""
+      },
       "style": {
         "type": "rect",
         "ratio": 1.433
@@ -716,7 +729,10 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "BiliXxue",
+      "ext": {
+        "json": "https://nos.netease.com/youdata-netease/public-utilUpload-4VMpA5z1erwuRYyDVSkc9T.gz",
+        "cookie": ""
+      },
       "style": {
         "type": "rect",
         "ratio": 1.433
@@ -730,7 +746,10 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "BiliCzong",
+      "ext": {
+        "json": "https://file.icve.com.cn/file_doc/281/941/466EB55404EAB8AD6EC37A5F73444B27.aowu",
+        "cookie": ""
+      },
       "style": {
         "type": "rect",
         "ratio": 1.433
@@ -744,7 +763,10 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "BiliGzong",
+      "ext": {
+        "json": "https://nos.netease.com/youdata-netease/public-utilUpload-vsfDQmE86Ei5LCTWJ2X6Nv.gz",
+        "cookie": ""
+      },
       "style": {
         "type": "rect",
         "ratio": 1.433
