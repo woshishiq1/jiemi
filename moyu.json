@@ -1,5 +1,5 @@
 {
-  "spider": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce",
+  "spider": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc",
   "logo": "https://modelscope-resouces.oss-cn-zhangjiakou.aliyuncs.com/avatar%2Ff5309172-1af6-4c4f-a1c5-a4773a1cc718.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "danmaku": "http://127.0.0.1:5266/danmu/webhtv?name={name}&episode={episode}",
@@ -19,7 +19,7 @@
           "tmdb": "https://6800.kstore.vip/tmdb.json"
         }
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "YGP",
@@ -29,14 +29,14 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FishConfig",
       "name": "🍼┆设置┆中心",
       "type": 3,
       "api": "csp_FishConfig",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Local",
@@ -50,7 +50,7 @@
         "type": "list"
       },
       "ext": "https://6800.kstore.vip/share.json",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "ALLLive",
@@ -58,7 +58,7 @@
       "type": 3,
       "api": "csp_ALLLive",
       "searchable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "bili",
@@ -70,7 +70,7 @@
       "ext": {
         "cookie": ""
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FishPs",
@@ -79,7 +79,7 @@
       "api": "csp_FishPs",
       "searchable": 1,
       "filterable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Wogg",
@@ -98,7 +98,7 @@
         ],
         "filter": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260320/oOf4/wogg.json"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FishMuou",
@@ -114,7 +114,7 @@
           "https://www.muou.asia"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "bl",
@@ -125,7 +125,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://max.moyu666666.top/app88.php?site=bl",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FuYun",
@@ -137,7 +137,7 @@
       "filterable": 1,
       "changeable": 0,
       "ext": "AT5gVJoBJLBjA8bGv16T3JrqN2LXBIOz+yh3i+Q62mrf39gRwFyDvBsZFicI+C39mJcLm9J7qY/293gromRPJAf+9zAbwWTtKnR5Ums7P1Q5ts6eqP1gLc/RID4P3Mia9LSNqOxWJ8U9XZRYJl6gdtnZo7oR8T8JMWvWFVZzu5pAGSlzcJxMzqaVrWaPTrC3x790BI+cfF1ogCKAwNaVQxU=",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "花信",
@@ -151,7 +151,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "huaxin"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "素笺",
@@ -165,7 +165,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "sujian"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "丹青",
@@ -179,7 +179,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "danqing"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "huaisang",
@@ -189,7 +189,7 @@
       "searchable": 1,
       "changeable": 1,
       "ext": "AdYEovlEKsDy77+R58YGahWCxrDZyBxExcQNC2NSeH0n1b5mu6tvh8b4Eh0RCpoPF6eivKdrR1Hsb8X4sSVBS8zF6jkwLW+wze9yh+hSY5iimm4gM9mAtmt0obTi+6Iox/Jp4GCsN4MQyFebMK162SKnILklpXc1UMiJv9gnPOe5aOPUxCftL+x7/UGhBdFYWIegpiHvKeavUtCUkhxtDyC8KqVVPPW0StI5GdmUA3WBbnnrNiKqNc5GBmrffd6pDN+Cf9IIjzNNvos/5KXJmBbe/baAzTLkoafeIoDhO451",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "枫眠",
@@ -199,17 +199,7 @@
       "searchable": 1,
       "changeable": 1,
       "ext": "AWdPh5PnFxq1XZ1+qPrYSqER0/V56CsPtyhgchXfwuAECyRqGnmaLDChTlIn6qwjfE0Hr9d1et+8HEB6MOa6J+NFI/q9jj1dLRTXdE2kKzczaxo6/yaY9q8jEfksZElPK2hPF0UlOPg3Dy5xjGlHXKPA4p5WFet29QlPbubxC6L1",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
-    },
-    {
-      "key": "山雨",
-      "name": "🥮┆山雨┆4K",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": "AYSOIV5NPV94zoJUbTjfpc665waAgKlOxKvhSkULFasIfDLQGk4ngC6ZAgmkYGinuGY2cJLb/QvLtmAmkTQYHLSzg+LsXXAhf+y9N0WptRCm87zalnp8utprcrZ0vnZ7uaCJ4V+We0oaE9QWS+s4AGB3m4nnKwdP1roAyjUh5i1RXhF+OiP5+MNUI+Xrv665bAtZdXwaTBV4+FOJeJ0Xn7i0B4i+UVB22cghXOawp//J6VWN3zLiREsDvRJzIgX8hKgsgFdTn3cB4UxJY8swv32dEGVEjAoErZf74EhQz0drv8y92qLX9xQdxda+RlrgAQ==",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "长泽",
@@ -217,7 +207,7 @@
       "type": 3,
       "api": "csp_App88",
       "ext": "https://max.moyu666666.top/app88.php?site=legacy_a",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "云岫",
@@ -231,7 +221,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "yunxiu"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "zhiqiu",
@@ -240,7 +230,7 @@
       "api": "csp_zhiqiu",
       "searchable": 1,
       "ext": "http://www.小不点.com/api//2026/zhiqiu.php",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "fishhxq",
@@ -249,7 +239,7 @@
       "api": "csp_FishHxq",
       "searchable": 1,
       "ext": "http://www.小不点.com/api//2026/fishhxq.php",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Kan360",
@@ -264,7 +254,7 @@
           "https://jx.xmflv.com/?url="
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Rebo",
@@ -277,7 +267,7 @@
       "ext": {
         "url": "http://v.rbotv.cn"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "三秋影视",
@@ -288,7 +278,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "https://max.moyu666666.top/app3q.php?site=sq",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "马猴影视",
@@ -299,7 +289,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "https://max.moyu666666.top/app3q.php?site=mh",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "云朵影视",
@@ -310,7 +300,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "https://max.moyu666666.top/app3q.php?site=yd",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "茶寮",
@@ -324,7 +314,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "chaliao"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "栖桐",
@@ -338,7 +328,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "qitong"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "锦书",
@@ -352,7 +342,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "jinshu"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "棋枰",
@@ -366,7 +356,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "qiping"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "竹隐",
@@ -380,7 +370,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "zhuyin"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "玉阶",
@@ -394,7 +384,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "yujie"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "香篆",
@@ -408,7 +398,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "xiangzhu"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "松庭",
@@ -422,7 +412,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "songting"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "纸鸢",
@@ -436,7 +426,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "zhiyuan"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "墨砚",
@@ -450,7 +440,7 @@
         "php": "https://max.moyu666666.top/niulai.php",
         "site": "moyan"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "知年",
@@ -461,7 +451,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "zn"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "弦歌",
@@ -472,7 +462,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "xg"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "兰芷",
@@ -483,7 +473,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "lz"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "怀瑾",
@@ -494,7 +484,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "hj"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "疏影",
@@ -505,7 +495,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "sy"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "惊鸿",
@@ -516,7 +506,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "jh"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "昭华",
@@ -527,7 +517,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "zh"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "枕霜",
@@ -538,7 +528,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "zs"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "清沅",
@@ -549,7 +539,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "qy"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "观澜",
@@ -560,7 +550,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "gl"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "孟葭",
@@ -571,7 +561,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "mj"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "长明",
@@ -582,7 +572,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "cm"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "寻川",
@@ -593,7 +583,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "xc"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "南枝",
@@ -604,7 +594,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "nz"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "沐辞",
@@ -615,7 +605,7 @@
         "php": "https://max.moyu666666.top/appun.php",
         "playname": "mc"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Libvio",
@@ -632,7 +622,7 @@
           "https://libviogroup.github.io"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "KZN",
@@ -641,7 +631,7 @@
       "api": "csp_KZN",
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "SeedHub",
@@ -656,7 +646,7 @@
           "https://hubdog.cc"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "PanWebShare123",
@@ -678,7 +668,7 @@
         ],
         "cookie": ""
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "PanWebShareGuangYa",
@@ -699,7 +689,7 @@
         ],
         "cookie": ""
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Yidong4K",
@@ -710,7 +700,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "WoNiu",
@@ -722,7 +712,7 @@
       "ext": {
         "site": "https://wn4k.com/"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Qiwei",
@@ -742,7 +732,7 @@
           "https://www.qncool.com"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "gying",
@@ -765,7 +755,7 @@
           "https://www.黑客帝国.com"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FishLabi",
@@ -784,7 +774,7 @@
           "http://xiaocgege.shop"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FishZhizhen",
@@ -802,7 +792,7 @@
           "https://www.zhizhen8.click"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FishDuoduo",
@@ -817,7 +807,7 @@
           "https://tv.214521.xyz"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FishErxiao",
@@ -834,7 +824,7 @@
           "https://www.2xiaopan.top"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FishHuban",
@@ -848,7 +838,7 @@
           "http://38.76.197.172:16969"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Fishshayang",
@@ -862,7 +852,7 @@
           "http://38.76.197.172:12521"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "夸父",
@@ -883,7 +873,7 @@
         ],
         "cookie": ""
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "ShuangXing",
@@ -897,7 +887,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "DianYingYunJi",
@@ -906,7 +896,7 @@
       "api": "csp_DianYingYunJi",
       "searchable": 1,
       "changeable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "VideoX",
@@ -916,7 +906,7 @@
       "searchable": 1,
       "changeable": 1,
       "filterable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Wwys",
@@ -927,7 +917,7 @@
       "filterable": 1,
       "changeable": 1,
       "ext": "https://vip.wwgz.cn:5200",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "CZ",
@@ -950,7 +940,7 @@
           "https://czzy.top"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "wencai",
@@ -959,7 +949,7 @@
       "api": "csp_WenCai",
       "searchable": 1,
       "ext": "https://www.tjrongze.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.jiabaide.cn",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Guazi",
@@ -967,7 +957,7 @@
       "type": 3,
       "api": "csp_Guazi",
       "searchable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "TvDy",
@@ -976,7 +966,7 @@
       "api": "csp_TvDy",
       "searchable": 1,
       "filterable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "SaoHuo",
@@ -987,7 +977,7 @@
       "filterable": 1,
       "changeable": 1,
       "ext": "https://shdy5.us",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Duboku",
@@ -997,7 +987,7 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "HonHon",
@@ -1013,7 +1003,7 @@
         "quality": "1080p",
         "danmu": false
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "DJHub",
@@ -1025,7 +1015,7 @@
       "genre": "shortdrama",
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "XingHui",
@@ -1037,7 +1027,7 @@
       "changeable": 1,
       "filterable": 1,
       "ext": "https://max.moyu666666.top/xinghui.php",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "FanShu",
@@ -1048,7 +1038,7 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": "https://max.moyu666666.top/fanshu.php",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "双星",
@@ -1056,7 +1046,7 @@
       "type": 3,
       "api": "csp_App88",
       "ext": "https://max.moyu666666.top/app88.php?site=legacy_b",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "XgAnime",
@@ -1066,7 +1056,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Manbo",
@@ -1077,7 +1067,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "AUzH3yIWvgQkyhQw17uONTsfuN8PupZ/LJdr5C31Y/CWlzSNmarYI5kaJYN5c0p6+Oq0tXuTutQo9MHHytxulL5kmapDuAK5+2NTlpsUgBnr0tOamm69Fwb+jFDQ7VW46qf5EFY+Ea3PHzkpfeObKPM=",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Gugu",
@@ -1088,7 +1078,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "ARKK6LQnl4dB2QciLugEzZ8QD2WdbeK23tPAre1QOEbbL5BfB8cV39JNfSd2+Xhcqr/z+V5To0krLYHUX7NtRtwYBC44/9ayncZMomdbv4ZCBNOUsBEedUQx7SWf1J0pE0BsLG9QlR8tURwRwx/sqT0=",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Jianpian",
@@ -1097,7 +1087,7 @@
       "api": "csp_Jianpian",
       "searchable": 1,
       "filterable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Xb6v",
@@ -1106,7 +1096,7 @@
       "api": "csp_Xb6v",
       "searchable": 1,
       "filterable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "JSo",
@@ -1119,7 +1109,7 @@
           "https://j-so.com"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Tiu6",
@@ -1133,7 +1123,7 @@
           "https://www.tiu6.cn"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Buguyy",
@@ -1143,7 +1133,7 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "ChuXin",
@@ -1153,7 +1143,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "aiting",
@@ -1163,7 +1153,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Music24bit",
@@ -1181,7 +1171,7 @@
           "薛之谦"
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "TuXiaoBei",
@@ -1191,7 +1181,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "BeiLeHu",
@@ -1201,7 +1191,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "少儿教育",
@@ -1218,7 +1208,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "小学课堂",
@@ -1235,7 +1225,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "初中课堂",
@@ -1252,7 +1242,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "高中教育",
@@ -1269,7 +1259,7 @@
       "ext": {
         "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "BiliHeji",
@@ -1286,7 +1276,7 @@
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "name": "🎉┆笔璃┆歌曲",
@@ -1303,7 +1293,7 @@
         "type": "rect",
         "ratio": 1.433
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Kanqiu",
@@ -1317,7 +1307,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Sir88",
@@ -1330,7 +1320,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "QiutongTY",
@@ -1340,7 +1330,7 @@
       "searchable": 0,
       "filterable": 0,
       "changeable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "GuaziTY",
@@ -1350,7 +1340,7 @@
       "searchable": 0,
       "filterable": 0,
       "changeable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "919TY",
@@ -1360,7 +1350,7 @@
       "searchable": 0,
       "filterable": 0,
       "changeable": 1,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "TingBook",
@@ -1373,7 +1363,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "TingBookJinXia",
@@ -1387,7 +1377,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "TingShijie",
@@ -1399,7 +1389,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "TingYou",
@@ -1411,7 +1401,7 @@
       "style": {
         "type": "list"
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Market",
@@ -1443,7 +1433,7 @@
           }
         ]
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "push_agent",
@@ -1454,7 +1444,7 @@
       "changeable": 0,
       "indexs": 0,
       "timeout": 60,
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Fishdrive",
@@ -1465,7 +1455,7 @@
       "searchable": 1,
       "filterable": 1,
       "ext": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260715/bf45/fishdrive.json",
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     },
     {
       "key": "Wallpaper",
@@ -1480,7 +1470,7 @@
         "type": "rect",
         "ratio": 0.56
       },
-      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;01e3d12b032b87e2e1f7c278453881ce"
+      "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;84e91de92d3df35f4f6bc543e8979cfc"
     }
   ],
   "lives": [
