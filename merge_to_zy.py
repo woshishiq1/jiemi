@@ -5,6 +5,7 @@ import chardet
 
 TVBOX_FILE = "tvbox_config.json"
 MOYU_FILE = "moyu.json"
+XIAOYU_FILE = "xiaoyu.json"
 OUTPUT_FILE = "zy.json"
 
 def detect_encoding(file_path):
@@ -43,21 +44,23 @@ def merge_sites():
     print("[*] 开始读取文件并准备合并...")
     tvbox_data = read_json_file(TVBOX_FILE)
     moyu_data = read_json_file(MOYU_FILE)
+    xiaoyu_data = read_json_file(XIAOYU_FILE)
 
-    if tvbox_data is None or moyu_data is None:
+    if tvbox_data is None or moyu_data is None or xiaoyu_data is None:
         print("[-] 合并中止：源文件读取失败。")
         exit(1)
 
     # 提取 sites 列表
     tvbox_sites = tvbox_data.get("sites", [])
     moyu_sites = moyu_data.get("sites", [])
+    xiaoyu_sites = xiaoyu_data.get("sites", [])
 
-    if not isinstance(tvbox_sites, list) or not isinstance(moyu_sites, list):
+    if not isinstance(tvbox_sites, list) or not isinstance(moyu_sites, list) or not isinstance(xiaoyu_sites, list):
         print("[-] 错误: 'sites' 字段不是列表格式！")
         exit(1)
 
-    # 合并 sites：tvbox 在前，moyu 在后，顺序保持不变
-    merged_sites = tvbox_sites + moyu_sites
+    # 合并 sites：tvbox 在前，moyu 居中，xiaoyu 追加在最后，顺序保持不变
+    merged_sites = tvbox_sites + moyu_sites + xiaoyu_sites
 
     # 封装为标准的 Python 字典对象（自动带有外层 {}）
     output_data = {
