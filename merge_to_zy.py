@@ -1,5 +1,6 @@
 import os
-import json5  # 读取和写入都使用 json5
+import json  # 保持使用标准库 json 进行导出
+import json5 # 仅用于读取带有注释的源文件
 import chardet
 
 TVBOX_FILE = "tvbox_config.json"
@@ -45,31 +46,41 @@ def merge_sites():
         print("[-] 错误: 'sites' 字段不是列表格式！")
         exit(1)
 
+    # 1. 正常合并
     merged_sites = tvbox_sites + moyu_sites + xiaoyu_sites
     output_data = {"sites": merged_sites}
 
-    # 1. 先用 json5 生成美化后的 JSON5 字符串
-    json5_str = json5.dumps(output_data, ensure_ascii=False, indent=2)
+    # 2. 使用标准 json 生成标准的格式化文本（保留所有双引号，不会标红）
+    json_text = json.dumps(output_data, ensure_ascii=False, indent=2)
 
-    # 2. 通过文本替换，在列表项中对应接口前精准注入 // 注释
-    if tvbox_sites and "key" in tvbox_sites[0]:
-        first_tvbox_key = f'"key": "{tvbox_sites[0]["key"]}"'
-        json5_str = json5_str.replace(first_tvbox_key, f'// tvbox_config.json\n    {first_tvbox_key}', 1)
+    # 3. 找到各段第一个 site 的 key/name，在对应位置前面插入 // 注释
+    def add_comment(content, site_list, comment_title):
+        if not site_list:
+            return content
+        first_site = site_list[0]
+        # 优先使用 key 作为定位锚点
+        if "key" in first_site and first_site["key"]:
+            target = f'"key": "{first_site["key"]}"'
+        elif "name" in first_site and first_site["name"]:
+            target = f'"name": "{first_site["name"]}"'
+        else:
+            return content
 
-    if moyu_sites and "key" in moyu_sites[0]:
-        first_moyu_key = f'"key": "{moyu_sites[0]["key"]}"'
-        json5_str = json5_str.replace(first_moyu_key, f'// moyu.json\n    {first_moyu_key}', 1)
+        # 在匹配到的第一个 key/name 前面加一行注释
+        replacement = f'// {comment_title}\n    {target}'
+        return content.replace(target, replacement, 1)
 
-    if xiaoyu_sites and "key" in xiaoyu_sites[0]:
-        first_xiaoyu_key = f'"key": "{xiaoyu_sites[0]["key"]}"'
-        json5_str = json5_str.replace(first_xiaoyu_key, f'// xiaoyu.json\n    {first_xiaoyu_key}', 1)
+    # 依次插入三组配置的注释标识
+    json_text = add_comment(json_text, tvbox_sites, "tvbox_config.json")
+    json_text = add_comment(json_text, moyu_sites, "moyu.json")
+    json_text = add_comment(json_text, xiaoyu_sites, "xiaoyu.json")
 
-    # 3. 写入文件
+    # 4. 写入文件
     encoding = detect_encoding(TVBOX_FILE)
     try:
         with open(OUTPUT_FILE, 'w', encoding=encoding) as f:
-            f.write(json5_str)
-        print(f"[+] 成功生成带注释的文件: {OUTPUT_FILE}")
+            f.write(json_text)
+        print(f"[+] 成功生成标准带注释文件: {OUTPUT_FILE}")
     except Exception as e:
         print(f"[-] 写入 {OUTPUT_FILE} 失败: {e}")
 
