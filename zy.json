@@ -1,10 +1,9 @@
 {
   "sites": [
+    // tvbox_config.json
     {
       "name": "🔥豆瓣┃推荐",
-      // tvbox_config.json
-    // moyu.json
-    "key": "Douban",
+      "key": "Douban",
       "type": 3,
       "api": "csp_DoubanAmns",
       "indexs": 1,
@@ -871,6 +870,7 @@
       "quickSearch": 0,
       "changeable": 0
     },
+    // moyu.json
     {
       "key": "Douban",
       "name": "🌕️┆片单┆精选",
@@ -2352,9 +2352,9 @@
       },
       "jar": "https://down.nigx.cn/raw.githubusercontent.com/woshishiq1/jiemi/main/moyu.jar;md5;282aee405654188f1bc1822bbf137410"
     },
+    // xiaoyu.json
     {
-      // xiaoyu.json
-    "key": "豆豆热播",
+      "key": "豆豆热播",
       "name": "🔥公众号《风言锋语88》",
       "type": 3,
       "api": "csp_Douban",
