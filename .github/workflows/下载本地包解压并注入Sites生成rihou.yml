@@ -2,7 +2,7 @@ name: 下载本地包解压并注入Sites生成rihou.json
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # 每6小时 自动运行
+    - cron: '0 */3 * * *' # 每3小时 自动运行
   workflow_dispatch:     # 支持手动点击按钮运行
 
 # 增加并发排队锁：确保多个工作流同时运行时排队执行，防止抢占提交
@@ -46,7 +46,7 @@ jobs:
           echo "is_updated=true" >> $GITHUB_OUTPUT
         fi
 
-    - name: 2. 全量覆盖解压到 vox 目录
+    - name: 2. 全量覆盖解压并调整目录结构
       if: steps.check_update.outputs.is_updated == 'true'
       run: |
         echo "【全量覆盖】彻底清理旧 vox 目录并重新解压..."
@@ -54,10 +54,18 @@ jobs:
         mkdir -p vox
         unzip -o vox_pack.zip -d vox/
         
+        # 兼容处理：如果 ZIP 包内部套了 pro 或其他单层子目录，自动将里面的内容移动到 vox 根目录下
+        if [ -d "vox/pro" ]; then
+          echo "检测到 ZIP 包内套有 pro 目录，正在提至 vox 根目录..."
+          mv vox/pro/* vox/ 2>/dev/null || true
+          mv vox/pro/.* vox/ 2>/dev/null || true
+          rm -rf vox/pro
+        fi
+
         echo "清理压缩包临时文件..."
         rm -f vox_pack.zip
 
-        echo "查看当前 vox 目录结构："
+        echo "查看调整后的 vox 目录结构："
         ls -la vox/
 
     - name: 3. 运行 Python 逻辑：动态计算远程 JAR 的 MD5，注入 Sites 并生成 rihou.json
@@ -80,23 +88,31 @@ jobs:
             "xbpq.jar": "http://rihou.cc:88/jar/xbpq.jar"
         }
 
-        # 1. 寻找解压后的 JSON 配置文件 (优先 demo.json，其次 rihou_config.json)
-        json_path = os.path.join(VOX_DIR, "demo.json")
-        if not os.path.exists(json_path):
-            json_path = os.path.join(VOX_DIR, "rihou_config.json")
-        if not os.path.exists(json_path):
-            json_files = glob.glob(os.path.join(VOX_DIR, "*.json"))
+        # 1. 递归深度搜索解压后的 JSON 配置文件 (优先 demo.json)
+        json_path = None
+        for root, dirs, files in os.walk(VOX_DIR):
+            if "demo.json" in files:
+                json_path = os.path.join(root, "demo.json")
+                break
+            elif "rihou_config.json" in files:
+                json_path = os.path.join(root, "rihou_config.json")
+                break
+
+        # 如果没搜到指定的，就找任何一个 .json 文件
+        if not json_path:
+            json_files = glob.glob(os.path.join(VOX_DIR, "**", "*.json"), recursive=True)
             if json_files:
                 json_path = json_files[0]
-            else:
-                print("[-] 错误：在 vox 目录下未找到 JSON 配置文件！")
-                exit(1)
 
-        print(f"[+] 找到基础 JSON 配置文件: {json_path}")
+        if not json_path or not os.path.exists(json_path):
+            print("[-] 错误：在 vox 及其子目录下未找到任何 JSON 配置文件！")
+            exit(1)
+
+        print(f"[+] 成功定位到 JSON 配置文件: {json_path}")
         with open(json_path, "r", encoding="utf-8") as f:
             config_data = json.load(f)
 
-        # 保存原始配置镜像到根目录
+        # 保存原始配置镜像到仓库根目录
         with open("rihou_config.json", "w", encoding="utf-8") as f:
             json.dump(config_data, f, indent=2, ensure_ascii=False)
 
