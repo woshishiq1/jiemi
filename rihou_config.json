@@ -501,18 +501,6 @@
       }
     },
     {
-      "key": "八天App",
-      "name": "🐷八天┃[APP]",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "host": "https://dy.8ttv.cn/",
-        "datakey": "1111111111111111"
-      }
-    },
-    {
       "key": "王子4K",
       "name": "🙆王子┃[APP]",
       "type": 3,
